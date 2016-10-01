@@ -1,0 +1,23 @@
+ ! rofi
+ rofi.modi: run,window
+ rofi.font: Roboto 16
+ rofi.width: 60
+ rofi.lines: 5
+ rofi.columns: 1
+ rofi.opacity: 70
+ !                  bg       fg             altbg             hlbg          hlfg
+ rofi.color-window: #101218, #101218,       #2f343f
+ rofi.color-normal: #101218, argb:a0f3f4f5, argb:20000000,    argb:bffffff, #ffffff
+ rofi.color-active: #101218, #268bd2,       argb:20000000,    argb:bffffff, #268bd2
+ rofi.color-urgent: #fdf6e3, #dc322f,       argb:20000000,    argb:bffffff, #268bd2
+
+ rofi.location:          2
+ rofi.yoffset:           150
+ rofi.padding:           10
+ rofi.fuzzy:             false
+ rofi.color-enabled:     true
+ rofi.markup:            true
+ rofi.terminal:          termite
+ rofi.run-command:       {cmd}
+ rofi.run-shell-command: {terminal} -e {cmd}
+ rofi.hide-scrollbar:    true
